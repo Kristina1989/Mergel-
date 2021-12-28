@@ -62,8 +62,8 @@ button[1].onclick = () => {
 
 button[2].onclick = () => {
 
-    toyDiv.style.width = "270px"
-    toyDiv.style.height = "270px"
+    toyDiv.style.width = "280px"
+    toyDiv.style.height = "280px"
     toyDiv.style.position = "absolute"
     // toyDiv.style.backgroundColor = "red"
     toyDiv.style.left = "200px"
@@ -73,8 +73,8 @@ button[2].onclick = () => {
     let toy = document.createElement('img')
     toy.style.position = "absolute"
     toy.src = "https://www.dubingiai.lt/25311-large_default/burbulas-dekoratyvinis-8cm-kaledine-52527.jpg"
-    toy.style.left = String(Math.floor(Math.random() * 270)) + "px"
-    toy.style.top = String(Math.floor(Math.random() * 270)) + "px"
+    toy.style.left = String(Math.floor(Math.random() * 280)) + "px"
+    toy.style.top = String(Math.floor(Math.random() * 280)) + "px"
     toy.classList.add('size')
     toyDiv.appendChild(toy)
 }
