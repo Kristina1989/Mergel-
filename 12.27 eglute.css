@@ -1,0 +1,31 @@
+input {
+    width:200px;
+}
+
+
+.main {
+    width: 99vw;
+    height: 90vh;
+    border: 1px solid black;
+    overflow: hidden;
+
+
+
+
+
+}
+
+
+img {
+    width: auto;
+    height: 700px;
+
+}
+
+
+.size {
+    width: 50px;
+    height: auto;
+
+}
+
